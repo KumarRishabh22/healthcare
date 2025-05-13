@@ -1,0 +1,13 @@
+{
+  "name": "heart-rate-monitor",
+  "version": "1.0.0",
+  "description": "Heart Rate and HRV Monitor",
+  "scripts": {
+    "start": "python app.py",
+    "build": "mkdir -p dist && cp -r templates dist/ && cp app.py dist/"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.0.1",
+    "chart.js": "^4.3.0"
+  }
+}
