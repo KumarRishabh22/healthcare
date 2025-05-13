@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Heart Rate and HRV Monitor",
   "scripts": {
-    "prestart": "pip3 install flask flask-socketio bleak nest-asyncio numpy scipy",
+    "prestart": "python3 -m pip install flask flask-socketio bleak nest-asyncio numpy scipy",
     "start": "python app.py",
     "build": "mkdir -p dist && cp -r templates dist/ && cp app.py dist/"
   },
